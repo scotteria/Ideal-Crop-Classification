@@ -1,0 +1,20 @@
+import os
+import math
+import json
+import random
+import shutil
+import numpy as np
+import matplotlib.pyplot as plt
+from glob import glob
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers
+from sklearn.metrics import classification_report, confusion_matrix
+import itertools
+
+
+# Install Kaggle CLI and required libs
+!pip install --upgrade pip
+!pip install kaggle tensorflow scikit-learn matplotlib seaborn tqdm
+
+import kagglehub
